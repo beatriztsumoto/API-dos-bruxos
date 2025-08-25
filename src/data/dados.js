@@ -1,4 +1,4 @@
-export default [
+const bruxos = [
     {
         id: 1,
         nome: "Harry Potter",
@@ -8,6 +8,7 @@ export default [
         mascote: "Coruja (Edwiges)",
         patrono: "Cervo",
         especialidade: "Sobreviver a Voldemort 😎",
+        vivo: false
     },
     {
         id: 2,
@@ -101,3 +102,107 @@ export default [
          especialidade: "Criar logros e piadas",
     },
  ];
+const casas = [
+    {
+        id: 1,
+        nome: "Grifinória",
+        fundador:"Godric Gyffindor",
+        cores: "vermelho e dourado",
+        animal: "leão"
+    },
+    {
+        id: 2,
+        nome: "Sonserina",
+        fundador:"Salazar Slytherin",
+        cores: "Verde e Prata",
+        animal: "Serpente"
+    },
+    {   id: 3,
+        nome: "Lufa-Lufa",
+        fundador:"Helga Hufflepuff",
+        cores: "Amarelo e preto",
+        animal: "Texugo"
+    },
+    {
+        id: 4,
+        nome: "Corvinal",
+        fundador:"Rowena Ravenclaw",
+        cores: "Azul e bronze",
+        animal: "Àguia "
+    }
+]
+
+const varinhas = [
+    {
+        id: 1,
+        material: "Azevinho",
+        nucleo:"Pena de Fênix",
+        comprimento: "28cm"
+    },
+    {
+        id: 2,
+        material: "Videira",
+        nucleo:"Fibra de Coração de Dragão",
+        comprimento: "27cm"
+    },
+    {
+        id: 3,
+        material: "Salgueiro",
+        nucleo:"Pelo de Unicórnio",
+        comprimento: "35cm"
+    },
+    {
+        id: 1,
+        material: "Carvalho Inglês",
+        nucleo:"Pelo de Testrálio",
+        comprimento: "32cm"
+    }
+]
+
+const animais = [
+    {
+        id: 1,
+        nome: "Coruja",
+        tipo:"Correio/Companhia",
+    },
+    {
+        id: 2,
+        Gato: "Companhia",
+        tipo:"Correio/Companhia",
+    },
+    {
+        id: 3,
+        nome: "Sapo",
+        tipo:"Companhia",
+    },
+    {
+        id: 4,
+        nome: "Rato",
+        tipo:"Companhia",
+    }
+]
+
+const pocoes = [
+    {
+        id: 1,
+        nome: "Polissuco",
+        efeito:"Transforma na aparência de outra pessoa",
+    },
+    {
+        id: 2,
+        Gato: "Felix Felicis",
+        efeito:"Sorte temporária",
+    },
+    {
+        id: 3,
+        nome: "Amortentia",
+        efeito:"Poção do amor",
+    },
+    {
+        id: 4,
+        nome: "Veritaserum",
+        efeito:"Força a dizer a verdade",
+    }
+]
+
+ export default {bruxos, casas, varinhas, animais, pocoes};
